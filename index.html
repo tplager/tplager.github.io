@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trenton Plager's Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy|Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script type="module" src="js/main.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+</head>
+
+<body class="bg-light">
+    <!--Header-->
+    <header id="header" class="container-fluid pb-4 pt-4" style="height:auto;">
+        <!--NavBar-->
+        <div class="w-100 mx-auto">
+            <nav class="navbar navbar-expand navbar-dark bg-dark rounded my-auto">
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav container-fluid row text-center">
+                        <li class="nav-item col-sm"><a class="nav-link" href="https://www.linkedin.com/in/trenton-plager-913358150/" target="_blank"><i class="fab fa-linkedin icon"></i></a></li>
+                        <li class="nav-item col-sm"><a class="nav-link" href="https://github.com/tplager" target="_blank"><i class="fab fa-github-square icon"></i></a></li>
+                        <li class="nav-item col-sm"><a class="nav-link" target="_blank" href="PlagerResume.pdf">
+                                <h3>Resume</h3>
+                            </a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--Heading-->
+        <div class="w-100 mx-auto" id="titleBlock">
+            <h1 class="text-center mt-1 title" style="font-size:48pt;">Trenton Plager</h1>
+            <h5 class="text-center title" style="font-size:24pt;">Designer | Developer | Programmer | Producer</h5>
+        </div>
+    </header>
+    <!--Content Section-->
+    <main>
+        <!--About Me-->
+        <section id="aboutMe" class="container-fluid row mx-auto mb-3 bg-light">
+            <div class="w-25 col-5 text-center">
+                <div class="w-100 pt-3 pb-2 h-100 mb-4">
+                    <img class="img-fluid" src="images/MyPicture2.png" alt="My Picture">
+                </div>
+            </div>
+            <div class="text-justify col container-fluid list-group-item" style="vertical-align:middle;">
+                <div class="list-group-item border-0 pb-0 align-middle">
+                    <div class="handwriting">Hi, I'm Trent </div>
+                    <br>
+                    <p>I'm a 5th year student at the Rochester Institute of Technology. In May 2022, after completion of my Capstone project, I'll be graduating with both a Bachelors and Masters in Game Design and Development. I have also completed minors in both Entrepreneurship and German.
+                    <br>
+                    For the aforementioned Capstone project, I am working with a team of 4 other developers and 4 artists to create a 3D 3rd-person Action game we're tentatively calling "The Shattering Swords." You can read about it in detail below in my projects section. 
+                    <br>
+                    As you can probably guess, I'm really passionate about video games, and in my time at RIT, I've found that I have a great passion for game development, especially leaning towards the production side. I love learning new techniques of project managment and working to optimize development myself.
+                    <br>
+                    In my free time, what little of it there is, you're likely to find me sitting in front of my computer either playing or making games. However, you're also likely to find me sitting on my couch reading a book, working on my homebrew campaign for Dungeons and Dragons, trying to cook some new dish, or maybe even binding a book.
+                    <br>
+                    Anyway, thanks for taking a look at my portfolio. Feel free to contact me through any of the methods listed at the bottom. Enjoy!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--Slide Deck-->
+        <section id="slide-deck" class="container-fluid p-0 h-50 w-100">
+            <img src="images/Arrow.png" id="left-arrow" alt="Left Arrow" style="float:left" class="p-3">
+            <img src="images/Arrow.png" id="right-arrow" alt="Right Arrow" style="float:right;top:120px; transform:scale(-1)" class="p-3">
+            <div class="container-fluid pb-3 list-group-item row image-row w-75" style="margin:auto;">
+                <div class="col">
+                    <a href="projects/genetiko.html" class="project-link">
+                        <figure class="tint text-center">
+                            <img class="img-fluid rounded project-picture" src="images/GenetikoLogo1(black).png" alt="Genetiko Logo" style="opacity:1;">
+                        </figure>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="projects/genetiko.html" class="project-link">
+                        <figure class="tint text-center">
+                            <img class="img-fluid rounded project-picture" src="images/GenetikoScreenCap.png" alt="Genetiko Logo" style="opacity:1;">
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            <div class="row description row">
+                <div class="text-left mb-3 mt-3 float-right w-75 container-fluid">
+                    <h2 class="list-group-item text-center border-bottom-0" id="project-name">Solitary Confinement VR</h2>
+                    <p class="list-group-item text-center border-top-0" id="project-description">A VR Experience replicating solitary confinement made for a NSF REU program using Unity and SteamVR</p>
+                </div>
+            </div>
+            <div class="container-fluid list-group-item w-25 p-0" style="height:30px;">
+                <canvas style="vertical-align: middle"></canvas>
+            </div>
+        </section>
+        <!--Contact Form-->
+        <section id="contactForm" class="container-fluid rounded mx-auto text-center bg-dark mt-3" style=" width:95%">
+            <div class="pt-3 pb-1" style="font-size: 14pt;">
+                <p class="text-light"><b>Phone: </b><i>(402) 987-8298</i></p>
+                <p class="text-light"><b>Email: </b><i>tplager1@gmail.com</i></p>
+            </div>
+            <!--<iframe class = "text-center" src="contact.php" scrolling="no"></iframe>-->
+        </section>
+
+        <footer class="float-left col">
+            <div class="col mt-3 mb-3">
+                <nav class="navbar navbar-expand navbar-dark bg-dark rounded my-auto">
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav container-fluid row text-center">
+                            <!--<li id="displayContactForm" class="nav-item col-sm"><a class="nav-link">
+                                    <h3>Contact Me</h3>
+                                </a>
+                            </li>-->
+                            <li class="nav-item col-sm"><a class="nav-link" href="https://www.linkedin.com/in/trenton-plager-913358150/" target="_blank"><i class="fab fa-linkedin icon"></i></a></li>
+                            <li class="nav-item col-sm"><a class="nav-link" href="https://github.com/tplager" target="_blank"><i class="fab fa-github-square icon"></i></a></li>
+                            <li class="nav-item col-sm"><a class="nav-link" href="https://www.facebook.com/tplager" target="_blank"><i class="fab fa-facebook-square icon"></i></a></li>
+                            <li class="nav-item col-sm"><a class="nav-link" href="https://twitter.com/ReadyPlagerOne" target="_blank"><i class="fab fa-twitter-square icon"></i></a></li>
+                            <li class="nav-item col-sm"><a class="nav-link" target="_blank" href="PlagerResume.pdf">
+                                    <h3>Resume</h3>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

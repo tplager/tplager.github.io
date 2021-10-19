@@ -1,0 +1,107 @@
+body, html {
+    height: 100%;
+}
+
+/**#header {
+    background-image: url("../images/codeBackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}**/
+
+.imageContainer {
+    width: 30%;
+}
+
+.icon {
+    font-size: 30pt;
+}
+
+.title {
+    font-family: "Source Code Pro", monospace;
+}
+
+#titleBlock {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/*
+#contactForm {
+    display:none;
+    height: 400px;
+}
+*/
+
+iframe {
+    display: none; 
+    border: none;
+    padding:0;
+}
+
+#aboutMe {
+    font-size:18px; 
+}
+
+.handwriting {
+    display:inline; 
+    font-family: 'Satisfy', cursive;
+    font-size:250%;
+}
+
+#project-description {
+    font-style:italic;
+}
+
+#left-arrow, #right-arrow {
+    width:8%; 
+    position:relative; 
+    float:left; 
+    top:120px;
+}
+
+#left-arrow:hover, #right-arrow:hover {
+    cursor:pointer;
+}
+
+.tint {
+    position:relative;
+}
+
+.tint:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(211,211,211, 0.0);
+}
+
+.tint:hover:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(211,211,211, 0.5);
+  transition: background 0.3s linear;
+}
+
+.project-picture:hover {
+    cursor:pointer;
+}
+
+@media screen and (min-width: 1550px) {
+    #aboutMe {
+        font-size:21px; 
+    }
+}
+
+@media screen and (min-width: 1650px) {
+    #aboutMe {
+        font-size:25px; 
+    }
+}
