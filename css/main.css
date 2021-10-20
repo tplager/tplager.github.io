@@ -53,10 +53,14 @@ iframe {
 }
 
 #left-arrow, #right-arrow {
-    width:8%; 
+    display:flex;
     position:relative; 
-    float:left; 
-    top:120px;
+    top:50%;
+    transform: translate(0, -50%);
+}
+
+#right-arrow {
+    transform:translate(0, -50%) scaleX(-1);
 }
 
 #left-arrow:hover, #right-arrow:hover {

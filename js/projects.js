@@ -4,7 +4,7 @@ export {projects};
 
 let projects = Object.seal({
     project1: {
-        firstImage: "images/ShatteringSwords_1.png", 
+        firstImage: "images/ShatteringSwords_1.jpg", 
         secondImage: "images/ShatteringSwords_2.jpg", 
         name: "The Shattering Swords", 
         description: "A 3D Third Person action game developed as my Graduate Capstone Project", 
